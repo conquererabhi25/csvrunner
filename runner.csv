@@ -1,0 +1,30 @@
+date,person,miles run
+2023-11-01,Alice,5.2
+2023-11-01,Bob,3.1
+2023-11-01,Charlie,4.0
+2023-11-02,Alice,4.5
+2023-11-02,Charlie,6.2
+2023-11-03,Bob,2.8
+2023-11-03,Alice,3.5
+2023-11-04,Charlie,5.5
+2023-11-05,Bob,4.2
+2023-11-05,Alice,6.0
+2023-11-06,Charlie,3.8
+2023-11-07,Bob,5.1
+2023-11-08,Alice,4.2
+2023-11-09,Charlie,7.0
+2023-11-10,Bob,3.5
+2023-11-11,Alice,5.5
+2023-11-12,Charlie,4.2
+2023-11-13,Bob,2.5
+2023-11-14,Alice,4.8
+2023-11-15,Charlie,6.5
+2023-11-16,Bob,3.9
+2023-11-17,Alice,5.0
+2023-11-18,Charlie,4.0
+2023-11-19,Bob,4.4
+2023-11-20,Alice,6.2
+
+
+
+copy paste this data in text editor and put .csv extension at end.
