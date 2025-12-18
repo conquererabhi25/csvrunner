@@ -39,7 +39,11 @@ const Home = () => {
 
   // This Func will handle the file upload and parsing part.
   const handleFileUpload = (e) => {
-    const file = e.target.files[0];
+    const file = e.target.files?.[0];
+    if (!file) {
+      return;
+    }
+
     setFileName(e.target.files[0].name);
     setErrors([]);
     setRunData([]);
@@ -141,8 +145,8 @@ const Home = () => {
       const total = personArray.reduce((a, b) => a + b, 0);
 
       result[person] = {
-        total: total.toFixed(1),
-        average: total / personArray.length,
+        total: Number(total.toFixed(1)),
+        average: Number(total / personArray.length),
         min: Math.min(...personArray),
         max: Math.max(...personArray),
       };

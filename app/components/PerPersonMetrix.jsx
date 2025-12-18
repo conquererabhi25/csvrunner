@@ -60,7 +60,8 @@ const PerPersonMetrix = ({ personData, runData }) => {
                   <FaRunning />
                 </span>
               </div>
-               {summary.average.toFixed(2)}
+               <h1 className="text-3xl font-semibold"> {summary.average.toFixed(2)}</h1>
+              
             </div>
             <div className="flex flex-col p-3 bg-[#0fab91] rounded-md shadow-md  text-white">
               <div className="flex items-center gap-1">
