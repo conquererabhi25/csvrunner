@@ -60,7 +60,7 @@ const PerPersonMetrix = ({ personData, runData }) => {
                   <FaRunning />
                 </span>
               </div>
-              <h1 className="text-3xl font-semibold">{summary.total}</h1>
+               {summary.average.toFixed(2)}
             </div>
             <div className="flex flex-col p-3 bg-[#0fab91] rounded-md shadow-md  text-white">
               <div className="flex items-center gap-1">
@@ -69,7 +69,7 @@ const PerPersonMetrix = ({ personData, runData }) => {
                   <FaRunning />
                 </span>
               </div>
-              <h1 className="text-3xl font-semibold">{summary.total}</h1>
+              <h1 className="text-3xl font-semibold">{summary.min}</h1>
             </div>
             <div className="flex flex-col p-3 bg-[#05b060] rounded-md shadow-md  text-white">
               <div className="flex items-center gap-1">
@@ -78,7 +78,7 @@ const PerPersonMetrix = ({ personData, runData }) => {
                   <FaRunning />
                 </span>
               </div>
-              <h1 className="text-3xl font-semibold">{summary.total}</h1>
+             <h1 className="text-3xl font-semibold">{summary.max}</h1>
             </div>
           </div>
 
