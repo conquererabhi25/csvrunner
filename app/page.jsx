@@ -184,7 +184,7 @@ const Home = () => {
             drop
           </p>
           <p className="text-xs text-gray-800 mt-1">
-            CSV file with date, person, miles run
+            Note - CSV file must contain with date, person, miles run columns
           </p>
         </div>
         <input
