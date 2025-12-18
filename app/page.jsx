@@ -213,22 +213,20 @@ const Home = () => {
           <hr />
           <div className="flex items-center justify-center w-full p-2 m-3 mt-5 gap-2">
             <Button
-              className="cursor-pointer flex items-center"
-              onClick={() => {
-                setView("overall");
-              }}
+              variant={view === "overall" ? "default" : "outline"}
+              onClick={() => setView("overall")}
+              className="flex items-center gap-2"
             >
               <BsClipboard2Data />
-              Overall Metrix
+              Overall Metrics
             </Button>
+
             <Button
-              className="cursor-pointer flex items-center"
-              onClick={() => {
-                setView("perperson");
-              }}
+              variant={view === "perperson" ? "default" : "outline"}
+              onClick={() => setView("perperson")}
+              className="flex items-center gap-2"
             >
-              <BsClipboard2Data />
-              Per-Person Metrix
+              Per Person
             </Button>
           </div>
 
