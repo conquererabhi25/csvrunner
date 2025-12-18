@@ -74,6 +74,7 @@ Sample Data to try
 You can copy-paste this into a file called test.csv:
 
 CSV DATA. KINDLY COPY AND PASTE DATA IN TEXT FILE AND USE .CSV EXTENSION.
+I HAVE PROVIDED CSV FILE IN ROOT PLEASE CHECK.
 
 date,person,miles run
 2023-11-01,Alice,5.2
